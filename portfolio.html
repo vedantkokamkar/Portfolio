@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="'width=device-width, inituial scale=1.0">
+    <title>Vedant Kokamkar Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Vedant logo.png" class="logo">
+            <ul id="sidemenu"> 
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, I'm <span>Vedant</span> Kokamkar!</h1>
+            <p>Bachelor of Engineering (Electronics & Telecommunication) <br>Honours Degree (Artificial Intelligence & Machine Learning)</p>
+        </div>
+    </div>
+</div>
+<!-- ------------------about-------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Seeking a beginner role to enhance and explore my technical knowledge gained at Atharva College of Engineering in the last three years. Also, eager to put my skills to work in a professional setting. Gained valuable experience through internships and volunteer work. Enhanced qualities of working efficiently in a team and leadership. Pursuing my bachelors degree in Electronics & Telecommunication and minor degree in Artificial Intelligence & Machine Learning. A strong ability to learn new technologies quickly and apply them to real-world problems. Seeking an entry-level position where I can use my skills and knowledge to contribute to a team and make a positive impact on the company.</p>
+                  
+                <div class="tab-titles">
+                   <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                   <p class="tab-links" onclick="opentab('Certifications')">Certifications</p>
+                   <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents" id="Skills">
+                    <ul>
+                        <li><span>Web Development</span><br>Designing Websites/App interfaces.</li>
+                        <li><span>Canva Designing</span><br>Strong editing skills on the Canva app.</li>
+                        <li><span>Programming Languages</span><br>Languages include C, C++, Python, Java.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Certifications">
+                    <ul>
+                        <li><span>December 2022</span><br>Firebird V Programming in association with eYantra, IIT Bombay.</li>
+                        <li><span>June 2023</span><br>PLC Programming at Siemens Centre Of Excellence.</li>
+                        <li><span>May 2019</span><br>Certified with B Grade in the Course of Computer Concepts at National Level.</li>
+                        <li><span>April 2022</span><br>Volunteered for various events in the NSS Unit for 2 years.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2023-2025</span><br>Pursuing Honours in Artificial Intelligence & Machine Learning from Atharva College of Engineering.</li>
+                        <li><span>2021-2025</span><br>Pursuing Bachelors in Electronics & Telecommunications from Atharva College of Engineering.</li>
+                        <li><span>2019-2021</span><br>Passed HSC Board Examinations from Sathaye College with 92%.</li>
+                        <li><span>2009-2019</span><br>Passed SSC Board Examinations From Parle Tilak Vidyalaya with 89.20%.</li>
+                    </ul>
+                </div>
+            </div>         
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Designing Websites/App interfaces for small businesses.</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>Canva Design</h2>
+                <p>Designing and creating logos and images with enhanced features.</p>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>Microsoft Tools</h2>
+                <p>Expertise in using the MicrosoftTools like Excel, Powerpoint, Word, etc.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Vehicle Detection & Accident Alert System</h3>
+                    <p>The system allows you to view the threats and prevents from causing accidents.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Ecofriendly Lighting System</h3>
+                    <p>The system allows to preserve energy and conservation of electricty.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>RFID Attendance System</h3>
+                    <p>The system allows to keep an eye on the attendence with its seamless operation.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>Email : vedant.kokamkar21@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>Phone : +91 9920114955 / +91 9372524218</p>
+                <div class="social-icons">
+                    <a href="https://m.facebook.com/vedant.kokamkar/"><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href="https://x.com/kokamkar_vedant"><i class="fa-brands fa-square-x-twitter"></i>Twitter</a>
+                    <a href="https://www.instagram.com/vedant.kokamkar/"><i class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href="https://in.linkedin.com/in/vedant-kokamkar-a24b64283"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+                </div>
+                <a href="images/Vedant Updated Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzYWRxbFMYMoqTf51O7rS7XuRql0ITCw2I55g-gX8DsXWX3pCGQKCVWODpHy9gEUdUcXQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
